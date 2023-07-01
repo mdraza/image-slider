@@ -27,7 +27,8 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: 0.5s;
+  /* THIS creates the animation! */
+  transition: transform 0.8s;
 }
 .image-slider .slide img {
   width: 100%;
