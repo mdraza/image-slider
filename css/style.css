@@ -61,4 +61,29 @@ h1 {
 .slider__btn--right {
   right: 6%;
   transform: translate(50%, -50%);
-} /*# sourceMappingURL=imageSlider.css.map */
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dots__dot {
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
+}
+.dots__dot--active {
+  background-color: #fff;
+  opacity: 0.9;
+}
